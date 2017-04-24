@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Collapsing" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- 自定义 EditText 样式 下划线 未选中 选中 -->
+    <style name="EditTextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:colorControlNormal">@color/md_blue_300</item>
+        <item name="android:colorControlActivated">@color/md_blue_600</item>
+    </style>
+
+</resources>

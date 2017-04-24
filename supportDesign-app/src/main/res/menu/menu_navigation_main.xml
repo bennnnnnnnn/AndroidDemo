@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item_0"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/item_0"
+            app:actionLayout="@layout/layout_menu_item_define" />
+
+        <item
+            android:id="@+id/item_1"
+            android:icon="@drawable/ic_file_download_black_24dp"
+            android:title="@string/item_1" />
+
+        <!-- 子item需要设置checkable   否者选中以后点中别的item 状态不会改变-->
+        <item
+            android:id="@+id/group_one"
+            android:title="@string/goup_1">
+
+            <menu>
+                <item
+                    android:id="@+id/item_2"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_star_black_24dp"
+                    android:title="@string/item_2" />
+
+                <item
+                    android:id="@+id/item_3"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_history_black_24dp"
+                    android:title="@string/item_3" />
+
+            </menu>
+
+        </item>
+
+        <item
+            android:id="@+id/group_2"
+            android:title="@string/goup_2">
+
+            <menu>
+                <item
+                    android:id="@+id/item_4"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_people_black_24dp"
+                    android:title="@string/item_4" />
+
+                <item
+                    android:id="@+id/item_5"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+                    android:title="@string/item_5" />
+
+            </menu>
+
+        </item>
+
+        <item
+            android:id="@+id/group_3"
+            android:title="@string/goup_3">
+
+            <menu>
+                <item
+                    android:id="@+id/item_6"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_color_lens_black_24dp"
+                    android:title="@string/item_6" />
+
+                <item
+                    android:id="@+id/item_7"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_shop_black_24dp"
+                    android:title="@string/item_7" />
+
+                <item
+                    android:id="@+id/item_8"
+                    android:checkable="true"
+                    android:icon="@drawable/ic_settings_black_24dp"
+                    android:title="@string/item_8" />
+
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>

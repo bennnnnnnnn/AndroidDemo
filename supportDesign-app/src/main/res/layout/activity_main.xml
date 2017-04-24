@@ -1,18 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ben.androiddemo.MainActivity">
+    tools:context="com.ben.androiddemo.activity.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <include layout="@layout/toolbar_layout" />
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_main_padding">
+
+            <Button
+                android:id="@+id/drawer_navigation_demo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DrawerNavigation Demo" />
+
+            <Button
+                android:id="@+id/tabLayout_demo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TabLayout Demo" />
+
+            <Button
+                android:id="@+id/collapsingToolbarLayout_demo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CollapsingToolbarLayout Demo" />
+
+            <Button
+                android:id="@+id/textLayout_demo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextLayout Demo" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

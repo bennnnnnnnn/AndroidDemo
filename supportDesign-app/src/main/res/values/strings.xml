@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">AndroidDemo</string>
+    <string name="navigation_view_open">Open navigationView</string>
+    <string name="navigation_view_close">Close navigationView</string>
+    <string name="default_text">默认：</string>
+    <string name="hobby">hobby</string>
+    <string name="default_underline_style">自定义下划线样式：</string>
+    <string name="pets">pets</string>
+    <string name="default_hintText_appearance">自定义浮动标签：</string>
+    <string name="name">name</string>
+    <string name="default_errorText_appearance">自定义错误提示：</string>
+    <string name="phone">phone</string>
+    <string name="default_counterOverflowText_appearance">自定义超出计数最大长度样式：</string>
+    <string name="account">account</string>
+    <string name="multiple_tip">多选项提示：</string>
+    <string name="multiple">multiple</string>
+    <string name="ok">OK</string>
+    <string name="collapsing_sample_text">A\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nO\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nO\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ</string>
+    <string name="item_0">item_#0</string>
+    <string name="item_1">item_#1</string>
+    <string name="item_2">item_#2</string>
+    <string name="item_3">item_#3</string>
+    <string name="item_4">item_#4</string>
+    <string name="item_5">item_#5</string>
+    <string name="item_6">item_#6</string>
+    <string name="item_7">item_#7</string>
+    <string name="item_8">item_#8</string>
+    <string name="goup_3">goup_#3</string>
+    <string name="goup_2">goup_#2</string>
+    <string name="goup_1">goup_#1</string>
+    <string name="click">Click</string>
 </resources>

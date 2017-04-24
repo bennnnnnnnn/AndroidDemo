@@ -6,6 +6,49 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Collapsing" parent="AppTheme">
+
+    </style>
+
+    <!-- 扩展时字体颜色 -->
+    <style name="ExpandedTitleTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+
+    <!--折叠后字体颜色 -->
+    <style name="CollapsingToolbarTitleStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/md_white_1000</item>
+    </style>
+
+    <!-- theme 改这个，popupTheme 去掉 即可改图标颜色 -->
+    <style name="ThemeToolbar" parent="ThemeOverlay.AppCompat.Light">
+
+        <!-- navigation icon color -->
+        <item name="colorControlNormal">@color/md_white_1000</item>
+
+        <!-- color of the menu overflow icon -->
+        <item name="android:textColorSecondary">@color/md_green_500</item>
+        <item name="android:textColorPrimary">@color/md_amber_500</item>
+
+    </style>
+
+    <!-- 自定义 EditText 浮动标签 -->
+    <style name="EditTextHintAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/md_blue_600</item>
+    </style>
+
+    <!-- 自定义 EditText 错误提示信息 -->
+    <style name="EditTextErrorAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/md_yellow_500</item>
+    </style>
+
+    <!-- 自定义 EditText 超出计数最大长度样式 -->
+    <style name="EditTextErrorCounterOverflowAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/md_brown_500</item>
     </style>
 
 </resources>
