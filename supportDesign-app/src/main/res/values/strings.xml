@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidDemo</string>
+    <string name="app_name">supportDesign-app</string>
     <string name="navigation_view_open">Open navigationView</string>
     <string name="navigation_view_close">Close navigationView</string>
     <string name="default_text">默认：</string>

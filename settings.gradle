@@ -1,1 +1,1 @@
-include ':supportDesign-app'
+include ':supportDesign-app', ':utiltest-app'
